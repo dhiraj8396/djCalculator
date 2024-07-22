@@ -15,7 +15,7 @@ def div(a, b):
     else:
         return "Division by zero is not allowed"
 
-st.title("Simple Calculator App")
+st.title("Simple Calculator App-Dhiraj Jagtap")
 
 operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide"])
 a = st.number_input("Enter first number", step=1.0)
